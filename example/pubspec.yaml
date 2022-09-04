@@ -29,7 +29,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  bubble_selection:
+  bubbles_selection:
     path: ../
 
 

@@ -1,7 +1,7 @@
-name: bubble_selection
+name: bubbles_selection
 description: Allows to add interactive bubble selection to your app.
 version: 0.0.1
-homepage:
+homepage: https://github.com/rutvik110/bubbles_selection
 
 environment:
   sdk: ">=2.17.6 <3.0.0"

@@ -2,8 +2,8 @@ import 'dart:developer';
 import 'dart:math' as math;
 import 'dart:ui';
 
-import 'package:bubble_selection/src/boundaries.dart';
-import 'package:bubble_selection/src/bubble.dart';
+import 'package:bubbles_selection/src/boundaries.dart';
+import 'package:bubbles_selection/src/bubble.dart';
 import 'package:collection/collection.dart';
 import 'package:flame/components.dart' as components;
 import 'package:flame/components.dart';

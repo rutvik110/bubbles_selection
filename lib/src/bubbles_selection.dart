@@ -1,5 +1,5 @@
-import 'package:bubble_selection/src/bubble.dart';
-import 'package:bubble_selection/src/bubble_selection_game.dart';
+import 'package:bubbles_selection/src/bubble.dart';
+import 'package:bubbles_selection/src/bubbles_selection_game.dart';
 import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
 

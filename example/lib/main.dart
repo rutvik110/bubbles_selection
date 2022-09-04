@@ -1,4 +1,4 @@
-import 'package:bubble_selection/bubble_selection.dart';
+import 'package:bubbles_selection/bubbles_selection.dart';
 import 'package:flutter/material.dart';
 
 void main() {
