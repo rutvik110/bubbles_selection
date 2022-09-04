@@ -1,36 +1,83 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# 🫧 Bubbles Selection
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
+> **Note**
+>  This is an experimental release.
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+
+
+### Add 😍 not-so boring 🫧 bubbles selection to your app.
+
+
+
+https://user-images.githubusercontent.com/65209850/188316726-583cc23f-f706-4298-ad92-1d7da26b62d6.mp4
+
+
+
+
+
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+* Fully customizable bubbles
+* Fully customizable bubble text
+* Interactive bubbles with collision system 
+* Flexible API
+* Fun to interact with
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+You can add bubble selection like this, 
 
-## Usage
+```DART
+BubbleSelection(
+            bubbles: [
+              Bubble(
+                text: "Gaming🎮",
+                activeColor: Colors.red,
+                inactiveColor: Colors.blue,
+                textStyle: const TextStyle(
+                  fontSize: 18,
+                  color: Colors.yellow,
+                ),
+              ),
+              Bubble(
+                text: "Food🍔",
+                activeColor: Colors.red,
+                inactiveColor: Colors.orange,
+                textStyle: const TextStyle(
+                  fontSize: 16,
+                ),
+              ),
+            ],
+            selectedBubbles: selectedBubbles,
+            size: const Size(
+              900,
+              300,
+            ),
+            onSelect: (bubble) {
+              //  logic on bubble selection
+            },
+            onRemoved: (bubble) {
+              //  logic when bubble is un-selected
+            },
+          )
+```
+
+<!-- ## Usage
 
 TODO: Include short and useful examples for package users. Add longer examples
 to `/example` folder. 
 
 ```dart
 const like = 'sample';
-```
+``` -->
+
+<br>
+<br>
+
+> **Warning**
+> This is an experimental relase. Meaning, things may change/break more often than usual untill a stable release.
 
 ## Additional information
 
