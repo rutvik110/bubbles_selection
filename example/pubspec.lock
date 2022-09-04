@@ -18,9 +18,11 @@ packages:
   bubbles_selection:
     dependency: "direct main"
     description:
-      path: ".."
-      relative: true
-    source: path
+      path: "."
+      ref: HEAD
+      resolved-ref: "4d7fb46bb8b16658a900764c1fce09834098df34"
+      url: "https://github.com/rutvik110/bubbles_selection.git"
+    source: git
     version: "0.0.1-dev.0"
   characters:
     dependency: transitive

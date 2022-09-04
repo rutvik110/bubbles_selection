@@ -29,8 +29,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  bubbles_selection:
-    path: ../
+  # bubbles_selection:
+  #   path: ../
+  bubbles_selection: 
+    git:
+      url: https://github.com/rutvik110/bubbles_selection.git
+
 
 
   # The following adds the Cupertino Icons font to your application.
