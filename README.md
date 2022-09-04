@@ -3,8 +3,7 @@
 
 > **Note**
 >  This is an experimental release.
-
-
+<br>
 
 ### Add 😍 not-so boring 🫧 bubbles selection to your app.
 
@@ -17,7 +16,7 @@ https://user-images.githubusercontent.com/65209850/188316726-583cc23f-f706-4298-
 
 
 
-## Features
+## ✨ Features
 
 * Fully customizable bubbles
 * Fully customizable bubble text
@@ -25,7 +24,8 @@ https://user-images.githubusercontent.com/65209850/188316726-583cc23f-f706-4298-
 * Flexible API
 * Fun to interact with
 
-## Getting started
+<br>
+## 🚀 Getting started
 
 You can add bubble selection like this, 
 
@@ -72,6 +72,12 @@ to `/example` folder.
 ```dart
 const like = 'sample';
 ``` -->
+<br>
+## 📝 TODO
+
+* Improve positioning of bubbles initially to avoid any possible overlapping between bubbles
+* Additional constraints to avoid bubbles whose sizes might be larger than the size of the bubbles selection box
+* Api imrpovements around letting user know of selected and un-selected bubbles
 
 <br>
 <br>
@@ -79,8 +85,9 @@ const like = 'sample';
 > **Warning**
 > This is an experimental relase. Meaning, things may change/break more often than usual untill a stable release.
 
-## Additional information
+<!-- ## Additional information
 
 TODO: Tell users more about the package: where to find more information, how to 
 contribute to the package, how to file issues, what response they can expect 
 from the package authors, and more.
+ -->
