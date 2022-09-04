@@ -55,7 +55,7 @@ class _BubbleSelectionUiState extends State<BubbleSelectionUi> {
         children: [
           const Spacer(),
           const Text(
-            "Bubble Selection Concept",
+            "Bubble Selection",
             style: TextStyle(
               fontSize: 32,
             ),
