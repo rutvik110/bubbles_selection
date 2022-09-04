@@ -2,7 +2,7 @@
 
 
 > **Note**
->  This is an experimental release.
+>  This is an dev release.
 
 
 
@@ -77,7 +77,7 @@ const like = 'sample';
 <br>
 
 > **Warning**
-> This is an experimental relase. Meaning, things may change/break more often than usual untill a stable release.
+> This is an dev relase. Meaning, things may change/break more often than usual untill a stable release.
 
 ## Additional information
 
