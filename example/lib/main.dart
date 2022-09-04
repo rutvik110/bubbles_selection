@@ -78,6 +78,9 @@ class _BubbleSelectionUiState extends State<BubbleSelectionUi> {
                 activeColor: Colors.red.withOpacity(0.5),
                 inactiveColor:
                     const Color.fromARGB(255, 237, 141, 17).withOpacity(0.5),
+                textStyle: const TextStyle(
+                  fontSize: 16,
+                ),
               ),
               Bubble(
                 text: "Health &\n Fitness🏃",
@@ -93,9 +96,54 @@ class _BubbleSelectionUiState extends State<BubbleSelectionUi> {
                 activeColor: Colors.red.withOpacity(0.5),
                 inactiveColor:
                     const Color.fromARGB(255, 89, 37, 245).withOpacity(0.5),
+                textStyle: const TextStyle(
+                  fontSize: 24,
+                ),
+              ),
+              Bubble(
+                text: "Fun🎉",
+                activeColor: Colors.red.withOpacity(0.5),
+                inactiveColor:
+                    const Color.fromARGB(255, 176, 34, 224).withOpacity(0.5),
+              ),
+              Bubble(
+                text: "Comedy😂",
+                activeColor: Colors.red.withOpacity(0.5),
+                inactiveColor:
+                    const Color.fromARGB(255, 89, 37, 245).withOpacity(0.5),
               ),
               Bubble(
                 text: "Focus🎯",
+                activeColor: Colors.red.withOpacity(0.5),
+                inactiveColor:
+                    const Color.fromARGB(255, 176, 34, 224).withOpacity(0.5),
+              ),
+              Bubble(
+                text: "Music🎶",
+                activeColor: Colors.red.withOpacity(0.5),
+                inactiveColor:
+                    const Color.fromARGB(255, 89, 37, 245).withOpacity(0.5),
+                textStyle: const TextStyle(
+                  fontSize: 28,
+                ),
+              ),
+              Bubble(
+                text: "Travel🚗",
+                activeColor: Colors.red.withOpacity(0.5),
+                inactiveColor:
+                    const Color.fromARGB(255, 176, 34, 224).withOpacity(0.5),
+              ),
+              Bubble(
+                text: "Sports🏀",
+                activeColor: Colors.red.withOpacity(0.5),
+                inactiveColor:
+                    const Color.fromARGB(255, 89, 37, 245).withOpacity(0.5),
+                textStyle: const TextStyle(
+                  fontSize: 24,
+                ),
+              ),
+              Bubble(
+                text: "News📰",
                 activeColor: Colors.red.withOpacity(0.5),
                 inactiveColor:
                     const Color.fromARGB(255, 176, 34, 224).withOpacity(0.5),
